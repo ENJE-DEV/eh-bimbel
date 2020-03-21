@@ -4,6 +4,18 @@
     background-image: url('../img/photo/photo-1426122402199-be02db90eb90.jpg');
     background-size: cover;
 }
-.card-kelas{
+/* .card-kelas{
     width: 25%;
+} */
+
+.avatar-profile{
+    display: inline-block;
+    width: 25% !important;
+    position: relative;
+    text-align: center;
+    border: 2px solid #dee2e6;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.15);
+    line-height: 3rem;
 }
