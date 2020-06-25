@@ -1,14 +1,35 @@
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #647aff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4e66f8;
+}
+
 /* your styles go here */
 
-.header-utama{
+.header-utama {
     background-image: url('../img/photo/photo-1426122402199-be02db90eb90.jpg');
     background-size: cover;
 }
+
 /* .card-kelas{
     width: 25%;
 } */
 
-.avatar-profile{
+.avatar-profile {
     display: inline-block;
     width: 25% !important;
     position: relative;
@@ -16,11 +37,11 @@
     border: 2px solid #dee2e6;
     border-radius: 50%;
     background: #fff;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.15);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
     line-height: 3rem;
 }
 
-.card-testi{
+.card-testi {
     width: 200% !important;
     margin-left: 20%;
     /* height: 100px !important; */
@@ -62,4 +83,12 @@
 
 .owl-nav .owl-prev {
     margin-left: 25px;
+}
+
+.scrool {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
 }
