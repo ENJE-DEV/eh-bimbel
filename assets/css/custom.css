@@ -23,6 +23,7 @@
 .header-utama {
     background-image: url('../img/photo/header.jpg');
     background-size: cover;
+    padding: 7em;
 }
 
 /* .card-kelas{
